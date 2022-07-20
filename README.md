@@ -12,7 +12,7 @@
 1. Ensure you have installed all dependencies/packages: `npm i`
 1. Look at the Unit Test, see what is being called, passed as input arguments, and what the expected result are.
 1. Ensure you know how to run the unit test:
-    * `npm test main.js`
+   - `npm test main.js`
 1. Use a whiteboard to work out a solution to building the Pig Latin program
 1. Translate the broad ideas to psuedo code
 1. Convert the psuedo code to real JavaScript Code
@@ -31,7 +31,7 @@
 1. Look at your hints!
 1. **Clone, setup, testing, and running instructions for all projects is below**
 
-******
+---
 
 ## Cloning Your Project
 
@@ -39,15 +39,15 @@
 1. Copy HTTPS URL from your forked repository
 1. In your terminal/gitBash/CommandPrompt navigate (using `cd`) into a directory where you want to start keeping your repositories. (`/jsDevFolder`)
 1. Clone your new repository by typing `git clone <forked clone URL>` (the HTTPS
-URL you copied above)
-  ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
+   URL you copied above)
+   ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
 1. Now go into the new directory by using `cd project-repo`
 
 1. Add the base repository as an upstream
-    `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
+   `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
 
 1. Check the configuration of your remotes with `git remote -v`, it should look
-very similar to this (except it'll be YOUR username)
+   very similar to this (except it'll be YOUR username)
 
 ```bash
 $ git remote -v
@@ -61,32 +61,27 @@ upstream    git@github.com:AustinCodingAcademy/javascript-workbook.git (push)
 ### Setup
 
 1. From your project directory, run `npm i` to tell NPM to install all the
-node modules we use in this class (see `package.json`)
+   node modules we use in this class (see `package.json`)
 1. Use your textEditor (VS Code) to change your files.
 1. When you're finished `git status`, stage your file `git add .`, commit your changes `git commit -m "functions working"`, and push to
-GitHub `git push`
-    ```bash
-    git status
-    git add .
-    git commit -m "Initial Commit"
-    git push origin gh-pages
-    ```
+   GitHub `git push`
+   `bash git status git add . git commit -m "Initial Commit" git push origin gh-pages `
 
 1. Now go to your forked repository on GitHub (at
-  https://github.com/your-username/javascript-workbook). A little yellow box
-  should have popped up asking you to make a Pull Request. Click to review.
+   https://github.com/your-username/javascript-workbook). A little yellow box
+   should have popped up asking you to make a Pull Request. Click to review.
 
 1. Click "Create Pull Request"
 
-1. Every time you make a change *and push to GitHub*, this PR will automatically
-update. No need to do it more than once.
+1. Every time you make a change _and push to GitHub_, this PR will automatically
+   update. No need to do it more than once.
 
 #### Get latest workbook updates
 
 1. To get the latest code/homework/test updates, be sure to have a "clean
-working directory" by committing or removing all of your changes. You check for
-a "clean working environment" by running `git status` and making sure no files
-show up.
+   working directory" by committing or removing all of your changes. You check for
+   a "clean working environment" by running `git status` and making sure no files
+   show up.
 
 1. Run `git pull upstream gh-pages`
 
